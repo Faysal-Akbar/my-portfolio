@@ -21,7 +21,7 @@ const ContactMe = () => {
 
             <Form  onSubmit={handleSubmit} className="w-50 mx-auto">
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Control type="name" name="name" placeholder="Your Name" />
+                    <Form.Control type="text" name="name" placeholder="Your Name" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Control as="textarea" name="message" placeholder="Enter Your Message" rows={3} />
