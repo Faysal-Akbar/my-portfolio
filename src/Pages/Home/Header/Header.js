@@ -20,11 +20,17 @@ const Header = () => {
                     <Navbar.Collapse className="justify-content-end">
                     <Nav>
                     <Link to="/home" className="text-decoration-none text-dark mt-2 me-4">
-                        About me
+                        Home
                     </Link>
                     <Nav.Link className="text-dark me-4" href="https://drive.google.com/file/d/11SKwfdFQIUE9ufRUsU83qaQF5BlL-1NO/view?usp=sharing" target="_blank" rel="noreferrer noopener resume">Download Resume</Nav.Link>
-                    <Link to="/contact" className="text-decoration-none text-dark mt-2">
+                    <Link to="/about" className="text-decoration-none text-dark mt-2 me-4">
+                        About me
+                    </Link>
+                    <Link to="/contact" className="text-decoration-none text-dark mt-2 me-4">
                         Contact me
+                    </Link>
+                    <Link to="/blogs" className="text-decoration-none text-dark mt-2">
+                        My Blogs
                     </Link>
                     
                     </Nav>
