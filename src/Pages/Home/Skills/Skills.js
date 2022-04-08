@@ -16,7 +16,9 @@ const Skills = () => {
         <Container className="text-start mt-5">
             <h2 style={{color: 'rgb(113, 88, 7)'}}>My Skills</h2><hr />
             <Row className="mt-3 mb-5">
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="mb-3 bg-light">
                     <Card.Img style={{width: '79px', margin: 'auto', marginTop: '6px'}} src={html} />
                     <Card.Body>
@@ -24,7 +26,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="bg-light">
                     <Card.Img style={{width: '55px', margin: 'auto', marginTop: '8px'}} src={css} />
                     <Card.Body>
@@ -32,7 +36,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="bg-light">
                     <Card.Img style={{width: '136px', margin: 'auto', marginTop: '10px'}} src={js} />
                     <Card.Body>
@@ -40,7 +46,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="bg-light">
                     <Card.Img style={{width: '150px', margin: 'auto'}} src={react} />
                     <Card.Body>
@@ -48,7 +56,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="bg-light">
                     <Card.Img style={{width: '160px', margin: 'auto'}} src={node} />
                     <Card.Body>
@@ -56,7 +66,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="mb-3 bg-light">
                     <Card.Img style={{width: '130px', margin: 'auto'}} src={bootstrap} />
                     <Card.Body>
@@ -64,7 +76,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="mb-3 bg-light">
                     <Card.Img style={{width: '85px', margin: 'auto'}} src={tailwind} />
                     <Card.Body>
@@ -72,7 +86,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="bg-light">
                     <Card.Img style={{width: '132px', margin: 'auto'}} src={Mongodb} />
                     <Card.Body>
@@ -80,7 +96,9 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
                 <Card className="bg-light">
                     <Card.Img style={{width: '110px', margin: 'auto'}} src={firebase} />
                     <Card.Body>
@@ -88,8 +106,10 @@ const Skills = () => {
                     </Card.Body>
                 </Card>
                 </Col>
-                <Col sm={4}>
-                <Card className="bg-light">
+                <Col sm={4} data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
+                <Card className="bg-light, marginTop: 2">
                     <Card.Img style={{width: '90px', margin: 'auto'}} src={mui} />
                     <Card.Body>
                     <Card.Title className="text-center fw-bold">Material UI</Card.Title>

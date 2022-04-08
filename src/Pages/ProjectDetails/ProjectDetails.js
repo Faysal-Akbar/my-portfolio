@@ -82,13 +82,13 @@ const ProjectDetails = () => {
                         6. {project?.des6}
                         </Card.Text>
                         <button className="btn btn-outline-success me-2">
-                            <a style={{textDecoration: 'none', color: 'black'}} href={project?.live} target="_blank" rel="noreferrer noopener live">Live site</a>
+                            <a style={{textDecoration: 'none', color: 'black'}} href={project?.live} target="_blank" rel="noreferrer noopener live">Live site <i className="fas fa-external-link-alt"></i></a>
                         </button>
                         <button className="btn btn-outline-danger me-2">
-                            <a style={{textDecoration: 'none', color: 'black'}} href={project?.client} target="_blank" rel="noreferrer noopener live">Client Side Code</a>
+                            <a style={{textDecoration: 'none', color: 'black'}} href={project?.client} target="_blank" rel="noreferrer noopener live">Client Side Code <i className="fab fa-github"></i></a>
                         </button>
                         <button className="btn btn-outline-danger">
-                            <a style={{textDecoration: 'none', color: 'black'}} href={project?.server} target="_blank" rel="noreferrer noopener live">Server Side Code</a>
+                            <a style={{textDecoration: 'none', color: 'black'}} href={project?.server} target="_blank" rel="noreferrer noopener live">Server Side Code <i class="fab fa-github"></i></a>
                         </button>
                     </Card.Body>
                 </Card>

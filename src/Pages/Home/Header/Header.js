@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
-        <Navbar collapseOnSelect expand="lg" bg="light">
+        <Navbar collapseOnSelect expand="lg">
             <Container className="d-flex justify-content-between">
                     <div>
                     <Navbar.Brand href="#home" className="fw-bold">MF</Navbar.Brand>
